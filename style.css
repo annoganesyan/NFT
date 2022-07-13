@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+#card{
+    background-color: #15263F;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    margin-top: 152px;
+}
+#eq{
+    width: 302px;
+    height: 302px;
+    margin: 24px;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+
+h1 {
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+p{
+    margin: 24px;
+    color: #8BACD9;
+    font-weight: 300;
+    font-size: 18px;
+}
+#ETH{
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 24px;
+   
+}
+#days{
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 24px;
+}
+svg{
+    margin-right: 3px;
+}
+#eth_days{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    margin: 24px;
+    height: 1px;
+    background-color: #2E405A;
+    border: none;
+}
+#avatar{
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 15px;
+
+
+}
+#text{
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 16px;
+
+
+}
+#name{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 98px;
+}
+h1:hover{
+    color: #00FFF8;
+}
+#name:hover{
+    color: #00FFF8;
+}
+#eye{
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: none;
+}
+
+.nftandeye:hover #eye{
+    display: block;
+    
+}
+.nftandeye {
+    position: relative;
+  }
+
+  .nftandeye:hover #eq{
+    opacity: 0.6;
+  }
+
